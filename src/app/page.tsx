@@ -26,14 +26,14 @@ const Home = async () => {
     <>
       <Header />
       <div className="space-y-6">
-        <div className="px-5">
+        <div className="justify-center px-5 md:flex">
           <Image
-            src="/banner-01.png"
+            src="/banner_home.jpeg"
             alt="Leve uma vida com estilo"
             height={0}
             width={0}
             sizes="100vw"
-            className="h-auto w-full"
+            className="width: 1352 height: 800 angle: 0 deg opacity: 1 border-radius: 24px h-auto w-full"
           />
         </div>
 
@@ -43,14 +43,14 @@ const Home = async () => {
           <CategorySelector categories={categories} />
         </div>
 
-        <div className="px-5">
+        <div className="justify-center px-5 md:flex">
           <Image
             src="/banner-02.png"
             alt="Leve uma vida com estilo"
             height={0}
             width={0}
             sizes="100vw"
-            className="h-auto w-full"
+            className="h-auto w-full md:h-200 xl:w-250"
           />
         </div>
 
