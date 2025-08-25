@@ -50,7 +50,7 @@ const Home = async () => {
             height={0}
             width={0}
             sizes="100vw"
-            className="h-auto w-full md:h-200 xl:w-250"
+            className="width: 815 height: 638 angle: 0 deg; opacity: 1 border-radius: 15.09px h-auto w-full md:h-200 xl:w-250"
           />
         </div>
 
